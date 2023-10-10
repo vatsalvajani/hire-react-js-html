@@ -1,0 +1,332 @@
+@media only screen and (max-width: 1199px) {
+	.progressive-skills-developer{
+		padding: 120px 0 80px;
+	}
+
+	.progressive-skill-content{
+		width: 46%;
+	}
+
+	.hire-benefits-section{
+		padding: 80px 0px;
+	}
+
+	.hire-prices-title {
+	    font-size: 36px;
+	    line-height: 44px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.progressive-skill-content .hire-sec-title:before {
+	    margin-top: -30px;
+	}
+
+	.common-btn-wrapper{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+    	row-gap: 10px;
+	}
+
+	.technical-expertise-section,
+	.hire-engagement-model,
+	.hire-react-js-developer-section,
+	.hire-benefits-section,
+	.faq-section-wrapper{
+		padding: 65px 0;
+	}
+
+	.hire-js-bg-img{
+		background-image: none !important;
+		width: 0;
+	}
+
+	.react-dev-content .hire-sec-title{
+		text-align: center;
+	}
+
+	.react-dev-content .hire-sec-title:before{
+		margin-top: -20px;
+	}
+
+	.listing-item{
+		grid-template-columns: auto auto;
+	}
+
+	.react-dev-content{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+	.faq-content-wrapper .hire-sec-title:before {
+	    margin-top: -20px;
+	}
+
+	.faq-content-sec{
+		flex-direction: column;
+	}
+
+	.faq-content-wrapper{
+		width: 100%;
+	    padding-right: 0px;
+	    position: unset;
+	    top: 0px;
+	}
+
+	.faq-tabs-wrapper{
+		width: 100%;
+	}
+
+	.progressive-skills-developer{
+		padding: 80px 0 60px;
+	}
+
+	.desktop-cta{
+		display: none;
+	}
+
+	.mobile-cta{
+		display: flex;
+	}
+
+	.faq-content-wrapper{
+		text-align: center;
+	}
+
+	.faq-content-wrapper .hire-sec-title{
+		display: inline-flex;
+	}
+
+	.faq-content-wrapper .hire-sec-title:before {
+	    margin-top: 0px;
+	}
+
+	.mobile-cta{
+		margin-top: 40px;
+	}
+
+	.faq-cta{
+	    flex-direction: row;
+	    column-gap: 10px;
+	    font-size: 20px;
+	    line-height: 28px;
+	}
+
+	.hire-prices-title {
+	    font-size: 32px;
+	    line-height: 40px;
+	}
+
+	.center-grid .hire-prices {
+	    padding-top: 60px;
+	}
+
+	.hire-prices{
+		padding: 20px 10px;
+	}
+
+	.hire-content{
+		padding: 10px 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.progressive-skills-developer{
+		padding: 100px 0 60px;
+	}
+
+	.progressive-skills-wrapper{
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.progressive-skill-content,
+	.progressive-skill-listing{
+		width: 100%;
+	}
+
+	.progressive-skill-content{
+		position: unset;
+		top: 0px;
+	}
+
+	.progressive-skill-content .hire-sec-title:before {
+	    margin-top: -20px;
+	}
+
+	.common-btn-wrapper{
+		flex-direction: row;
+		margin-top: 35px;
+		justify-content: center;
+	}
+
+	.progressive-skill-content .hire-sec-title,
+	.technical-expertise-section .hire-sec-title,
+	.hire-engagement-model .hire-sec-title,
+	.progressive-skill-content p{
+		text-align: center;
+	}
+
+	.progress-skill-item{
+		text-align: center;
+	}
+
+	.technical-expertise-section, 
+	.hire-engagement-model, 
+	.hire-react-js-developer-section, 
+	.hire-benefits-section, 
+	.faq-section-wrapper {
+	    padding: 55px 0;
+	}
+
+	.tech-item-wrap{
+		flex-direction: column;
+	}
+
+	.tech-title{
+		font-size: 16px;
+    	padding: 15px 25px;
+		border-radius: 8px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.tech-listing{
+		width: 100%;
+		border-radius: 8px; 	
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		padding: 15px 25px;
+	}
+
+	.hire-model-grid{
+		flex-direction: column;
+		margin-top: 50px;
+    	margin-bottom: 50px;
+    	row-gap: 40px;
+	}
+
+	.hire-model-grid a{
+		width: 100%;
+	}
+
+	.hire-model-grid-content,
+	.hire-model-grid a:first-child .hire-model-grid-content,
+	.hire-model-grid a:last-child .hire-model-grid-content{
+		box-shadow: 0px 0px 25px rgba(0,0,0,.2);
+	}
+
+	.center-grid .hire-prices {
+	    padding-top: 40px;
+	}
+
+	.technical-expertise-section .technical-description{
+		margin-bottom: 45px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.progressive-skill-content .hire-sec-title:before {
+	    margin-top: -10px;
+	}
+
+	.technical-expertise-section, 
+	.hire-engagement-model, 
+	.hire-react-js-developer-section, 
+	.hire-benefits-section, 
+	.faq-section-wrapper {
+	    padding: 45px 0;
+	}
+
+	.technical-expertise-section{
+		margin-top: 40px;
+	}
+
+	.technical-expertise-section .technical-description{
+		margin-bottom: 35px;
+	}
+
+	.tech-listing{
+		column-gap: 6px;
+    	row-gap: 6px;
+	}
+
+	.tech-listing li:not(:last-child) {
+	    padding-right: 8px;
+	}
+
+	.listing-item {
+	    grid-template-columns: auto;
+	}
+
+	.faq-cta{
+		font-size: 18px;
+    	line-height: 26px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.common-btn-wrapper{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.common-btn-wrapper .view-btn{
+		margin: 0px;
+	}
+
+	.connect-cta-section .connect-cta-wrapper{
+    	padding: 25px;
+	}
+
+	.hire-prices-title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.progressive-skills-developer {
+	    padding: 80px 0 40px;
+	}
+
+	.connect-cta-section .connect-cta-wrapper {
+	    padding: 25px 15px;
+	}
+
+	.connect-cta-section .common-btn{
+		font-size: 11px;
+	}
+
+	.tech-title,
+	.tech-listing{		
+    	padding: 12px 20px;
+	}
+
+	.hire-model-grid{
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+	.hire-prices {
+	    padding: 15px 10px;
+	}
+
+	.hire-content {
+	    padding: 10px 15px;
+	}
+
+	.hire-benefits-section .hire-sec-title:before{
+		margin-top: -20px;
+	}
+
+	.faq-cta {
+	    font-size: 15px;
+	    line-height: 24px;
+	    column-gap: 5px;
+	}
+
+	.faq-cta span img{
+		width: 28px;
+	}
+}

@@ -1,0 +1,318 @@
+body{
+  overflow: visible;
+}
+
+.progressive-skills-developer{
+  padding: 160px 0 80px;
+  overflow-x: visible;
+}
+
+.progressive-skills-wrapper{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-start;
+}
+
+.progressive-skill-content{
+  width: 42%;
+  position: sticky;
+  top: 160px;
+}
+
+.progressive-skill-content .hire-sec-title:before{
+  margin-top: -40px;
+}
+
+.common-btn-wrapper{
+  margin-top: 45px;
+}
+
+.common-btn-wrapper .view-btn{
+  margin-right: 10px;
+}
+
+.progressive-skill-listing{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.progress-skill-item{
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.progress-skill-item:hover{
+  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skills-sub-title{
+  color: #034D82;
+  margin-bottom: 15px;
+}
+
+.connect-cta-wrapper{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.connect-cta-wrapper .schedule-call-title{
+  margin-bottom: 25px;
+}
+
+.technical-expertise-section{
+  padding: 80px 0px;
+  margin-top: 60px;
+}
+
+.expert-btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.technical-expertise-section .technical-description{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.technology-expertise-wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-bottom: 50px;
+}
+
+.tech-item-wrap{
+  display: flex;
+  align-items: stretch;
+  box-shadow: 2px 0px 30px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+}
+
+.tech-title{
+  display: flex;
+  align-items: flex-start;
+  min-width: 280px;
+  background-color: #1161FD;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tech-listing{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 20px 35px;
+  flex-wrap: wrap;
+  position: relative;
+  width: calc(100% - 280px);
+  background-color: #fff;
+}
+
+.tech-listing li{
+  position: relative;
+}
+
+.tech-listing li:not(:last-child){
+  padding-right: 15px;
+}
+
+.tech-listing li:not(:last-child):after{
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-right: 1px solid #ccc;
+  width: 1px;
+  height: 100%;
+}
+
+.hire-engagement-model{
+  padding: 80px 0px;
+}
+
+.hire-model-grid{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.hire-model-grid a{
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hire-model-grid a:first-child .hire-model-grid-content{
+  box-shadow: -10px 0px 50px rgba(0,0,0,.2);
+}
+
+.hire-model-grid a:last-child .hire-model-grid-content{
+  box-shadow: 10px 0 50px rgba(0,0,0,.2);
+}
+
+.hire-model-grid-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0 50px rgba(0,0,0,.1);
+}
+
+.hire-model-grid-content.center-grid{
+  position: relative;
+  z-index: 2;
+}
+
+.hire-prices{
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.center-grid .hire-prices{
+  padding-top: 90px;
+}
+
+.hire-tag-line{
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translateX(-50%);
+}
+
+.hire-prices-title{
+  font-size: 42px;
+  line-height: 54px;
+  color: #FF1641;
+}
+
+.hire-sub-text{
+  color: #232323;
+}
+
+.hire-content{
+  width: 100%;
+  padding: 20px 35px;
+  border-top: 1px solid #FF1641;
+  color: #232323;
+}
+
+.hire-react-js-developer-section{
+  padding: 80px 0px;
+  position: relative;
+}
+
+.hire-js-bg-img{
+  width: 50%;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  height: 100%;
+}
+
+.react-dev-content{
+  width: 50%;
+  padding-right: 50px;
+}
+
+.react-dev-content .hire-sec-title:before{
+  margin-top: -40px;
+}
+
+.listing-item{
+  display: grid;
+  row-gap: 5px;
+}
+
+.listing-item li{
+  padding-left: 25px;
+  background-image: url(../images/listing-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left top 4px;
+  background-size: 14px;
+  letter-spacing: 0.3px;  
+}
+
+.hire-benefits-section{
+  padding: 80px 0px;
+}
+
+.hire-benefits-section .section-title-wrapper{
+  text-align: center;
+}
+
+.faq-section-wrapper{
+  padding: 80px 0px;
+}
+
+.faq-content-sec{
+  display: flex;
+  align-items: flex-start;
+}
+
+.faq-content-wrapper{
+  width: 30%;
+  padding-right: 50px;
+  position: sticky;
+  top: 145px;
+}
+
+.faq-content-wrapper .hire-sec-title{
+  text-transform: capitalize;
+}
+
+.faq-content-wrapper .hire-sec-title:before{
+  margin-top: -40px;
+}
+
+.faq-tabs-wrapper{
+  width: calc(100% - 32%);
+}
+
+.faq-tabs-wrapper .tabs{
+  margin-top: 0px;
+}
+
+.faq-cta-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.mobile-cta{
+  display: none;
+}
+
+.faq-cta{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FF1641;
+  font-weight: 500;  
+}
+
+.faq-cta span{
+  display: flex;
+  align-items: center;
+}
