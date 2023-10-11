@@ -15,6 +15,12 @@
 	    font-size: 36px;
 	    line-height: 44px;
 	}
+
+	.faq-content-wrapper .hire-sec-title {
+	    font-size: 36px;
+	    line-height: 44px;
+	    margin-bottom: 65px;
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -47,7 +53,8 @@
 	}
 
 	.react-dev-content .hire-sec-title:before{
-		margin-top: -20px;
+		margin-top: -15px;
+		left: 50px;
 	}
 
 	.listing-item{
@@ -82,28 +89,24 @@
 		padding: 80px 0 60px;
 	}
 
-	.desktop-cta{
-		display: none;
-	}
-
-	.mobile-cta{
-		display: flex;
-	}
-
 	.faq-content-wrapper{
 		text-align: center;
 	}
 
 	.faq-content-wrapper .hire-sec-title{
 		display: inline-flex;
+		font-size: 32px;
+		line-height: 40px;
+		margin-bottom: 45px;
 	}
 
 	.faq-content-wrapper .hire-sec-title:before {
 	    margin-top: 0px;
 	}
 
-	.mobile-cta{
-		margin-top: 40px;
+	.faq-cta-wrapper{
+		margin-bottom: 40px;
+		justify-content: center;
 	}
 
 	.faq-cta{
@@ -153,7 +156,28 @@
 	}
 
 	.progressive-skill-content .hire-sec-title:before {
-	    margin-top: -20px;
+	    margin-top: -15px;
+	}
+
+	.technical-expertise-section .hire-sec-title:before{
+		left: 40px;
+		margin-top: -10px;
+	}
+
+	.hire-engagement-model .hire-sec-title:before{
+		left: -20px;
+		margin-top: -10px;		
+	}
+
+	.react-dev-content .hire-sec-title:before {
+	    margin-top: -15px;
+	    left: -20px;
+	}
+
+	.faq-content-wrapper .hire-sec-title {
+	    font-size: 26px;
+	    line-height: 34px;
+	    margin-bottom: 35px;
 	}
 
 	.common-btn-wrapper{
@@ -265,6 +289,19 @@
 		font-size: 18px;
     	line-height: 26px;
 	}
+
+	.hire-engagement-model .hire-sec-title:before {
+	    left: 0;
+	}
+
+	.react-dev-content .hire-sec-title:before {
+	    margin-top: -10px;
+	    left: 0px;
+	}
+
+	.hire-benefits-section .hire-sec-title:before {
+	    margin-top: -10px;
+	}
 }
 
 @media only screen and (max-width: 479px) {
@@ -316,10 +353,6 @@
 	    padding: 10px 15px;
 	}
 
-	.hire-benefits-section .hire-sec-title:before{
-		margin-top: -20px;
-	}
-
 	.faq-cta {
 	    font-size: 15px;
 	    line-height: 24px;
@@ -328,5 +361,17 @@
 
 	.faq-cta span img{
 		width: 28px;
+	}
+
+	.hire-sec-title:before{
+		top: -10px;
+		transform: none;
+		left: 0 !important;
+		margin: 0 !important;
+	}
+
+	.style-right.hire-sec-title:before{
+		left: auto !important;
+		right: -10px;
 	}
 }
