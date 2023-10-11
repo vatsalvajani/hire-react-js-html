@@ -374,4 +374,14 @@
 		left: auto !important;
 		right: -10px;
 	}
+
+	.faq-content-wrapper .hire-sec-title {
+	    font-size: 24px;
+	    line-height: 34px;
+	    margin-bottom: 20px;
+	}
+
+	.faq-cta-wrapper{
+		margin-bottom: 25px;
+	}
 }
