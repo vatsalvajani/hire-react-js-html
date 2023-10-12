@@ -370,6 +370,16 @@
 		margin: 0 !important;
 	}
 
+	.faq-content-wrapper .hire-sec-title:before{
+		top: -5px;
+		left: 10px !important;
+	}
+
+	.hire-engagement-model .hire-sec-title:before{
+		top: -10px;
+		left: -15px !important;	
+	}
+
 	.style-right.hire-sec-title:before{
 		left: auto !important;
 		right: -10px;
